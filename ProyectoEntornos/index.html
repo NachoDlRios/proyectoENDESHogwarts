@@ -1,0 +1,84 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="cssHogwarts.css">
+        <title>Hogwart</title>
+    </head>
+    <body>
+        <header>
+            <h1>Hogwarts Escuela de Informática y Hechicería</h1>
+            <p><img src="img/escudoHogwarts.png" alt="" id="escudoPrincipal"></p>
+        </header>
+        <nav>
+            <table id="menuNav">
+                <th colspan="5">Las casas de nuestra escuela</th>
+                <tr>
+                    <td><a href="">Profesorado</a></td><!--Aqui va la casa de Javi con su enlace-->
+                    <td><a href="">Gryffindor</a></td><!--Aqui va la casa de Vero con su enlace-->
+                    <td><a href="">Slytherin</a></td><!--Aqui va la casa de Nacho con su enlace-->
+                    <td><a href="">Hufflepuff</a></td><!--Aqui va la casa de Adri con su enlace-->
+                    <td><a href="">Rawenclaw</a></td><!--Aqui va la casa de Gonzalo con su enlace-->
+                </tr>
+            </table>
+        </nav>
+        <section>
+            <article id="descripcionHogwarts">
+                <p>Hogwarts es una escuela a la cual asisten jóvenes magos para desarrollar sus habilidades mágicas.
+                    El edificio, situado en las colinas del Dragón de Alcalá de Guadaíra , es visto como un antiguo edificio en ruinas con 
+                    un cartel que dice "cuidado, ruinas peligrosas", por las personas ajenas a poderes mágicos (más 
+                    comúnmente conocidos como muggles). Tiene siete plantas, varias torres, escaleras que cambian de 
+                    posición a su antojo y extensos terrenos que contienen un lago, un bosque, llamado El Bosque 
+                    Prohibido, y varios invernaderos con fines botánicos. Además de sus numerosas aulas en las que se 
+                    imparten las clases de pociones, transformaciones, Defensa contra las Artes Oscuras, Historia de la 
+                    magia y demás asignaturas por asistentes calificados, el castillo posee lugares con fines diferentes. 
+                    Ejemplos son el Gran Comedor (donde se celebran enormes banquetes en días especiales y que posee un 
+                    techo mágico el cual parece ser el cielo y presenta el tiempo atmosférico del momento), las salas 
+                    comunes, una gran biblioteca, la misteriosa Sala de los Menesteres o la legendaria Cámara Secreta,
+                </p>
+
+            </article>
+        </section>
+        <footer>
+            <form>
+                <table id="solicitudPlaza">
+                    <tr>
+                        <th colspan="2">
+                            <h2>Solicite su plaza</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="tamaño"><label for="nombre">Nombre:</label> </td>
+                        <td><input type="text" name="nombre" id="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellidos">Apellidos:</label></td>
+                        <td><input type="text" name="apellidos" id="apellidos"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Género:</td>
+                        <td>
+                            <label for="hombre">Hombre:</label>
+                            <input type="radio" name="sexo" id="hombre">
+                            <label for="mujer">Mujer:</label>
+                            <input type="radio" name="sexo" id="mujer">
+                        </td>
+                    <tr>
+                        <td>Descripción:</td>
+                        <td>
+                            <textarea cols="60" rows="8" placeholder="Escriba aquí su descripción"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <p id="botonesForm">
+                    <input type="submit" name="envio" id="submit" value="Mandar lechuza">
+                    <input type="reset" name="reset" id="reset" value="Avada Kedavra"></p>
+            </form>
+        </footer>
+    </body>
+</html>

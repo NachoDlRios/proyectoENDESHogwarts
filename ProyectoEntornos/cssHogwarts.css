@@ -1,0 +1,52 @@
+@font-face {font-family:"Harry Potter";
+	src:url("HARRP___.eot?") format("eot"),url("HARRP___.woff") format("woff"),url("HARRP___.ttf") format("truetype"),url("HARRP___.svg#HarryPotter") format("svg");
+	font-weight:normal;
+	font-style:normal;}
+
+body{ 
+    font-family:"Harry Potter";
+    background-color: #F5F5DC;
+    }
+
+.imgCasas{width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;}
+
+h1{text-align: center;}
+
+nav{border: solid 2px black;}
+
+#solicitudPlaza{margin-left: 50px;}
+
+
+#menuNav{border: solid 1px black;
+    text-align: center;
+    width: 100%;}
+
+#descripcionHogwarts{margin: 25px;}
+
+#escudoPrincipal{width: 200px;
+                height: 200px;
+                display: block;
+                margin: auto;}
+
+#botonInicio{
+    display: block;
+    margin: auto;
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;}
+
+.descripcionCasas{ align-content: center;
+                margin-left: 25px;}
+
+.datosAlumnos{margin-left: 25px;}
+
+footer{
+    margin-top: 50px;}
+
+#botonesForm{padding: 10px;
+            margin-left: 50px;}
